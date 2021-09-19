@@ -43,7 +43,7 @@ p {
 
 /* Header */
 .page-header {
-  border-bottom: 1px solid #ECECEC;
+  border-bottom: 1px solid #ececec;
 }
 
 /* Logo */
@@ -73,7 +73,6 @@ p {
 .site-nav {
   display: flex;
   align-items: center;
-  
 }
 
 .site-nav .list + .list {
@@ -199,8 +198,8 @@ p {
 .features-list {
   display: flex;
   flex-wrap: wrap;
-  margin-left: calc( -1 * var(--gap));
-  margin-top: calc( -1 * var(--gap));
+  margin-left: calc(-1 * var(--gap));
+  margin-top: calc(-1 * var(--gap));
 }
 
 .features-list > .list {
@@ -218,8 +217,8 @@ p {
 .images-list {
   display: flex;
   flex-wrap: wrap;
-  margin-left: calc( -1 * var(--gap));
-  margin-top: calc( -1 * var(--gap));
+  margin-left: calc(-1 * var(--gap));
+  margin-top: calc(-1 * var(--gap));
 }
 
 .images-list > .image {
@@ -234,8 +233,6 @@ p {
   display: block;
 }
 
-
-
 /* Our team */
 section-title {
   margin-bottom: var(--section-gap);
@@ -244,8 +241,8 @@ section-title {
 .team-list {
   display: flex;
   flex-wrap: wrap;
-  margin-left: calc( -1 * var(--gap));
-  margin-top: calc( -1 * var(--gap));
+  margin-left: calc(-1 * var(--gap));
+  margin-top: calc(-1 * var(--gap));
 }
 
 .team-list > .team-member {
@@ -272,6 +269,7 @@ section-title {
 .button {
   display: flex;
   justify-content: center;
+  margin-bottom: var(--section-gap);
 }
 
 .button .list-button {
@@ -303,17 +301,40 @@ section-title {
 }
 
 /* Our produtcs */
+.products-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: calc(-1 * var(--gap));
+  margin-top: calc(-1 * var(--gap));
+}
+
+.our-products {
+  flex-basis: calc(100% / 3 - var(--gap));
+  margin-left: var(--gap);
+  margin-top: var(--gap);
+
+  border-bottom: 1px solid #EEEEEE;
+}
+
 .item {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--title-text-color);
+  margin-top: 20px;
+  margin-bottom: 4px;
+  padding-left: 24px;
+  padding-right: 24px;
 }
 
 .item-description {
   font-size: 16px;
   line-height: 1.87;
+  
+  padding-bottom: 20px;
+  padding-left: 24px;
+  padding-right: 24px; 
 }
 
 /* Footer */
@@ -351,5 +372,5 @@ section-title {
 }
 
 .footer-contacts-list .list + .list {
- margin-top: 9px;
+  margin-top: 9px;
 }
