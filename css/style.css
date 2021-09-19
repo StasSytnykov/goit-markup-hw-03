@@ -161,6 +161,11 @@ p {
   border-radius: 4px;
 }
 
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: #188CE8;
+}
+
 /* Sections */
 .section {
   padding-top: 94px;
