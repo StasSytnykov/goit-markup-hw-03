@@ -27,28 +27,28 @@
               <span class="logo-style">Web</span>Studio
             </a>
             <ul class="site-nav">
-              <li class="item">
+              <li class="list">
                 <a class="link link-style" href="./index.html">Студия</a>
               </li>
 
-              <li class="item">
+              <li class="list">
                 <a class="link" href="./portfolio.html">Портфолио</a>
               </li>
 
-              <li class="item">
+              <li class="list">
                 <a class="link" href="">Контакты</a>
               </li>
             </ul>
           </nav>
           <!-- Контакты -->
           <ul class="contacts">
-            <li class="item">
+            <li class="list">
               <a class="link-contact" href="mailto:info@devstudio.com"
                 >info@devstudio.com</a
               >
             </li>
 
-            <li class="item">
+            <li class="list">
               <a class="link-contact" href="tell:+380961111111"
                 >+380961111111</a
               >
@@ -69,9 +69,9 @@
       <!-- Особенности -->
       <section class="section">
         <div class="container">
-          <h2 class="section-title">Преимущества</h2>
-          <ul>
-            <li>
+          <h2 hidden>Преимущества</h2>
+          <ul class="features-list">
+            <li class="list">
               <h3 class="section-subtitle">Внимание к деталям</h3>
               <p class="section-text">
                 Идейные соображения, а также начало повседневной работы по
@@ -79,7 +79,7 @@
               </p>
             </li>
 
-            <li>
+            <li class="list">
               <h3 class="section-subtitle">Пунктуальность</h3>
               <p class="section-text">
                 Задача организации, в особенности же рамки и место обучения
@@ -87,7 +87,7 @@
               </p>
             </li>
 
-            <li>
+            <li class="list">
               <h3 class="section-subtitle">Планирование</h3>
               <p class="section-text">
                 Равным образом консультация с широким активом в значительной
@@ -95,7 +95,7 @@
               </p>
             </li>
 
-            <li>
+            <li class="list">
               <h3 class="section-subtitle">Современные технологии</h3>
               <p class="section-text">
                 Значимость этих проблем настолько очевидна, что реализация
@@ -109,42 +109,44 @@
       <section class="section">
         <div class="container">
           <h2 class="section-title">Чем мы занимаемся</h2>
-          <ul>
-            <li>
+          <ul class="images-list">
+            <li class="image">
               <img
+              class="card-image"
                 src="./images/img-one.jpg"
                 alt="Человек печатает на клавиатуре"
                 width="370"
-                height="294"
+                height="294"                
               />
             </li>
 
-            <li>
+            <li class="image">
               <img
+                class="card-image"
                 src="./images/img-two.jpg"
                 alt="Человек выбирает интерефейс на телефоне"
                 width="370"
-                height="294"
+                height="294"               
               />
             </li>
 
-            <li>
+            <li class="image">
               <img
+                class="card-image"
                 src="./images/img-three.jpg"
                 alt="Человек рисует на планшете"
                 width="370"
                 height="294"
               />
             </li>
-          </ul>
         </div>
       </section>
       <!-- Команда -->
       <section class="section section-color">
         <div class="container">
           <h2 class="section-title">Наша команда</h2>
-          <ul>
-            <li>
+          <ul class="team-list">
+            <li class="team-member">
               <img
                 src="./images/photo-one.jpg"
                 alt="Фото члена команды"
@@ -155,7 +157,7 @@
               <p class="userpic-description" lang="en">Product Designer</p>
             </li>
 
-            <li>
+            <li class="team-member">
               <img
                 src="./images/photo-two.jpg"
                 alt="Фото члена команды"
@@ -166,7 +168,7 @@
               <p class="userpic-description" lang="en">Frontend Developer</p>
             </li>
 
-            <li>
+            <li class="team-member">
               <img
                 src="./images/photo-three.jpg"
                 alt="Фото члена команды"
@@ -177,7 +179,7 @@
               <p class="userpic-description" lang="en">Marketing</p>
             </li>
 
-            <li>
+            <li class="team-member">
               <img
                 src="./images/photo-four.jpg"
                 alt="Фото члена команды"
@@ -193,25 +195,25 @@
     </main>
     <!-- Подвал -->
     <footer class="footer">
-      <div class="container">
+      <div class="container footer-container">
         <a class="logo" href="./index.html" lang="en">
           <span class="logo-style">Web</span
           ><span class="logo-style-footer">Studio</span></a
         >
-        <address class="footer-text">г. Киев, пр-т Леси Украинки, 26</address>
-        <ul>
-          <li>
+         <address class="footer-text">г. Киев, пр-т Леси Украинки, 26</address>
+         <ul class="footer-contacts-list">
+          <li class="list">
             <a class="footer-contact" href="mailto:info@devstudio.com"
               >info@devstudio.com</a
             >
           </li>
 
-          <li>
+          <li class="list">
             <a class="footer-contact" href="tell:+380961111111"
               >+380961111111</a
             >
           </li>
-        </ul>
+        </ul>     
       </div>
     </footer>
   </body>
