@@ -13,11 +13,24 @@ body {
   background-color: var(--accent-color);
 }
 
-.list {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+p {
   margin: 0;
   padding: 0;
   list-style: none;
 }
+
+/* .list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+} */
 
 .container {
   width: 1170px;
@@ -34,7 +47,6 @@ body {
 
 /* Header */
 
-
 /* Logo */
 .logo {
   font-family: Raleway, sans-serif;
@@ -46,6 +58,8 @@ body {
   color: #000;
 
   margin-right: 93px;
+  margin-top: 24px;
+  margin-bottom: 25px;
 }
 
 .logo-style {
@@ -60,7 +74,6 @@ body {
 .site-nav {
   display: flex;
   align-items: center;
-  
 }
 
 .site-nav .item + .item {
@@ -115,13 +128,13 @@ body {
 /* Hero */
 .hero {
   background-color: #2f303a;
+  text-align: center;
 }
 
 .hero-title {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--accent-color);
@@ -132,12 +145,14 @@ body {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
-  display: flex;
   align-items: center;
-  text-align: center;
   letter-spacing: 0.06em;
+
   color: var(--accent-color);
   background-color: var(--style-color);
+
+  padding: 10px 32px;
+  border-radius: 4px;
 }
 
 /* Sections */
