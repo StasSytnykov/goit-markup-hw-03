@@ -40,6 +40,10 @@ p {
   display: flex;
 }
 
+.hidden {
+  visibility: hidden;
+}
+
 /* Header */
 .page-header {
   border-bottom: 1px solid #ececec;
