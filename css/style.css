@@ -351,19 +351,12 @@ section-title {
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--title-text-color);
-  /* margin-top: 20px; */
-  /* margin-bottom: 4px;
-  padding-left: 24px;
-  padding-right: 24px; */
+  margin-bottom: 4px;
 }
 
 .item-description {
   font-size: 16px;
   line-height: 1.87;
-
-  /* padding-bottom: 20px;
-  padding-left: 24px;
-  padding-right: 24px; */
 }
 
 /* Footer */
