@@ -9,6 +9,7 @@
 }
 
 body {
+  margin: 0;
   color: var(--primery-text-color);
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
@@ -218,6 +219,10 @@ p {
 
 /* Our classes */
 
+.section-gap {
+  padding-top: 0;
+}
+
 .section-title {
   margin-bottom: var(--section-gap);
 }
@@ -251,12 +256,14 @@ section-title {
   flex-wrap: wrap;
   margin-left: calc(-1 * var(--gap));
   margin-top: calc(-1 * var(--gap));
+
 }
 
 .team-list > .team-member {
   flex-basis: calc(100% / 4 - 30px);
   margin-left: var(--gap);
   margin-top: var(--gap);
+  background-color: var(--accent-color);
 }
 
 .userpic {
@@ -321,7 +328,9 @@ section-title {
   margin-left: var(--gap);
   margin-top: var(--gap);
 
-  border-bottom: 1px solid #eeeeee;
+  /* border-bottom: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee; */
 }
 
 .item {
