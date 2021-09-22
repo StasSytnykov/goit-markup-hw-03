@@ -271,12 +271,18 @@ section-title {
   line-height: 1.87;
   text-align: center;
   color: var(--title-text-color);
+  margin-bottom: 10px;
 }
 
 .userpic-description {
   font-size: 16px;
   line-height: 1.87;
   text-align: center;
+}
+
+.card-userpic {
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 /* Buttons*/
