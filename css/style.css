@@ -9,7 +9,6 @@
 }
 
 body {
-  margin: 0;
   color: var(--primery-text-color);
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
@@ -240,11 +239,11 @@ p {
   margin-top: var(--gap);
 }
 
-.card-image {
+/* .card-image {
   max-width: 100%;
   height: auto;
   display: block;
-}
+} */
 
 /* Our team */
 section-title {
@@ -262,6 +261,7 @@ section-title {
   flex-basis: calc(100% / 4 - 30px);
   margin-left: var(--gap);
   margin-top: var(--gap);
+
   background-color: var(--accent-color);
 }
 
